@@ -1,0 +1,83 @@
+{
+  "leads": [
+    {
+      "id": "1",
+      "name": "Jessica Davis",
+      "email": "jessica.d@outlook.com",
+      "status": "Contacted",
+      "source": "Instagram",
+      "createdAt": "2026-05-15T14:33:43.862Z"
+    },
+    {
+      "id": "2",
+      "name": "Rahul Sharma",
+      "email": "rahul.dev@gmail.com",
+      "status": "Qualified",
+      "source": "Website",
+      "createdAt": "2026-05-17T14:33:43.870Z"
+    },
+    {
+      "id": "3",
+      "name": "Marcus Kane",
+      "email": "m.kane@corporate.io",
+      "status": "New",
+      "source": "Referral",
+      "createdAt": "2026-05-19T14:33:43.870Z"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Wilson",
+      "email": "sarah.win@tech.co",
+      "status": "New",
+      "source": "Website",
+      "createdAt": "2026-05-20T12:33:43.870Z"
+    },
+    {
+      "id": "5",
+      "name": "David Chen",
+      "email": "dchen@startup.net",
+      "status": "Qualified",
+      "source": "Instagram",
+      "createdAt": "2026-05-08T14:33:43.870Z"
+    },
+    {
+      "id": "6",
+      "name": "Elena Gomez",
+      "email": "elena.g@global.com",
+      "status": "Contacted",
+      "source": "Referral",
+      "createdAt": "2026-05-20T09:33:43.870Z"
+    },
+    {
+      "name": "demo",
+      "email": "demo@gmail.com",
+      "status": "New",
+      "source": "Website",
+      "id": "y5io062cc",
+      "createdAt": "2026-05-20T14:55:00.080Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "$2a$10$tZbe9Y/7j7m.YF.Y7XjG6u6q7q7q7q7q7q7q7q7q7q7q7q7q7q",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Sales User",
+      "email": "sales@example.com",
+      "password": "$2a$10$tZbe9Y/7j7m.YF.Y7XjG6u6q7q7q7q7q7q7q7q7q7q7q7q7q7q",
+      "role": "sales"
+    },
+    {
+      "name": "demo",
+      "email": "demo@gmail.com",
+      "password": "$2b$10$1BxZaxfNsB9te.nM/ixxWex/tntcbYAn4AmlYsnpjDwApjH4SyoVi",
+      "role": "sales",
+      "id": "ka7lakfhd"
+    }
+  ]
+}

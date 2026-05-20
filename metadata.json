@@ -1,0 +1,6 @@
+{
+  "name": "Smart Leads Dashboard",
+  "description": "A production-ready full-stack lead management dashboard with RBAC, advanced filtering, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

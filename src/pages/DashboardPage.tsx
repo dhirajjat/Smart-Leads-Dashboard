@@ -129,7 +129,7 @@ export default function DashboardPage() {
   return (
     <div className="flex h-screen bg-slate-50 overflow-hidden font-sans">
       {/* Sidebar Navigation */}
-      <aside className="w-64 bg-slate-900 flex flex-col border-r border-slate-800 shrink-0">
+      <aside className="w-64 bg-slate-900 flex flex-col border-r border-slate-800 shrink-0 relative z-50">
         <div className="p-6">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center font-black text-white shadow-lg shadow-indigo-500/20">S</div>

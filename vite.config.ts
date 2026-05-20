@@ -12,14 +12,13 @@ export default defineConfig(() => {
       },
     },
     server: {
-      
-      allowedHosts: 'all',
+      // Is line se saare cloud hosts accept ho jayenge aur Render par request block nahi hogi
+      allowedHosts: ['smart-leads-dashboard-a2ba.onrender.com'],
+
+      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
+      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
-    
-    preview: {
-      allowedHosts: 'all'
-    }
   };
 });

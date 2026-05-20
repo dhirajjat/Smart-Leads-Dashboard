@@ -1,10 +1,9 @@
 version: '3.8'
 
 services:
-  # Backend API Service
-  backend:
+  app:
     build:
-      context: ./server
+      context: .
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
@@ -12,15 +11,4 @@ services:
       - PORT=5000
       - MONGO_URI=${MONGO_URI}
       - JWT_SECRET=${JWT_SECRET}
-    restart: always
-
-  # Frontend Web Service
-  frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "80:80"
-    depends_on:
-      - backend
     restart: always
